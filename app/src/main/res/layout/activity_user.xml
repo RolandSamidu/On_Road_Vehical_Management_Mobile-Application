@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B0E0E6"
+    android:padding="20dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="900dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:id="@+id/textViewAddress2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edittext_name"
+            android:layout_marginTop="15dp"
+            android:text="@string/username"
+            android:textColor="#222523"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/beautytips1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/edit_profile"
+            android:textColor="#222523"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.643"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.08" />
+
+        <EditText
+            android:id="@+id/edittext_id"
+            android:layout_width="500dp"
+            android:layout_height="35dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/edit_text_bg"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.585"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.221" />
+
+        <EditText
+            android:id="@+id/edittext_name"
+            android:layout_width="500dp"
+            android:layout_height="35dp"
+            android:layout_below="@+id/textViewAddress"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:textAlignment="center"
+            android:background="@drawable/edit_text_bg"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.585"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.221" />
+
+        <TextView
+            android:id="@+id/textViewAddress23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+
+            android:textColor="#222523"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/edittext_username"
+            android:layout_width="500dp"
+            android:layout_height="35dp"
+            android:layout_below="@+id/textViewAddress2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:textAlignment="center"
+            android:background="@drawable/edit_text_bg"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.585"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.323" />
+
+        <TextView
+            android:id="@+id/textViewAddress24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edittext_phonenumber"
+            android:layout_marginTop="15dp"
+            android:text="@string/email"
+            android:textColor="#222523"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/edittext_email"
+            android:layout_width="500dp"
+            android:layout_height="35dp"
+            android:layout_below="@+id/textViewAddress24"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/edit_text_bg"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.585"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.42000002" />
+
+
+        <TextView
+            android:id="@+id/textViewAddress28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edittext_username"
+            android:layout_marginTop="15dp"
+            android:text="@string/phone_number"
+            android:textColor="#222523"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/textViewAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edittext_id"
+            android:layout_marginTop="15dp"
+            android:text="@string/name"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/edittext_phonenumber"
+            android:layout_width="500dp"
+            android:layout_height="35dp"
+            android:layout_below="@+id/textViewAddress28"
+            android:layout_marginTop="5dp"
+            android:textAlignment="center"
+            android:background="@drawable/edit_text_bg"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.585"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.52" />
+
+
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <Button
+            android:id="@+id/button_register"
+            android:layout_width="500dp"
+            android:layout_height="45dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/edittext_email"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/btn_rounded_corner"
+            android:onClick="Update"
+            android:text="@string/update"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+
+
+
+
+    </RelativeLayout>
+</ScrollView>

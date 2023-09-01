@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B0E0E6"
+    tools:context=".Maintain"
+    android:padding="20dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="170dp"
+            android:shadowColor="#808080"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="8"
+            android:src="@drawable/transparent" />
+
+        <EditText
+
+            android:id="@+id/edittext1"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_below="@id/image1"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/edit_text_bg"
+            android:hint="@string/vehicle_name"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textColorHint="@color/grey" />
+
+        <EditText
+
+            android:id="@+id/edittext2"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_below="@id/edittext1"
+            android:layout_marginTop="21dp"
+            android:background="@drawable/edit_text_bg"
+            android:hint="@string/owner_name"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textColorHint="@color/grey" />
+
+        <EditText
+            android:id="@+id/edittext3"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_below="@id/edittext2"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edit_text_bg"
+            android:hint="@string/vehicle_number"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textColorHint="@color/grey" />
+
+        <EditText
+            android:id="@+id/edittext4"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_below="@id/edittext3"
+            android:layout_marginTop="21dp"
+            android:background="@drawable/edit_text_bg"
+            android:hint="@string/date"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textColorHint="@color/grey" />
+
+        <EditText
+            android:id="@+id/edittext6"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/edittext4"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edit_text_bg"
+            android:hint="@string/description"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:textColorHint="@color/grey"
+            android:textAlignment="center"
+            android:importantForAutofill="no" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@id/btn1"
+            android:background="@drawable/btn_rounded_corner"
+            android:layout_marginTop="21dp"
+            android:onClick="view"
+            android:text="@string/view"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@id/edittext6"
+            android:background="@drawable/btn_rounded_corner"
+            android:layout_marginTop="18dp"
+            android:text="@string/submit"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="80dp"
+            android:layout_height="48dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="205dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginBottom="50dp"
+            android:text="@string/upload"
+            android:textSize="8sp"
+            tools:ignore="SmallSp" />
+
+    </RelativeLayout >
+
+</ScrollView>

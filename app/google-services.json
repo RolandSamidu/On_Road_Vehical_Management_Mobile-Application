@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "926359348159",
+    "project_id": "on-road-vehicle-management",
+    "storage_bucket": "on-road-vehicle-management.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:926359348159:android:e1845a243ad3a61a7bf70a",
+        "android_client_info": {
+          "package_name": "com.example.onroadvehiclemanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "926359348159-ucf19q7c5p5lmnl633m6gpdr3p175c9r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyoE1SWUv-tAxGBpkpSrYKH2x53Yjd0xU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "926359348159-ucf19q7c5p5lmnl633m6gpdr3p175c9r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
